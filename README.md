@@ -6,7 +6,7 @@ teacher accs gens on a high thread around 100 accs a 3 seconds
 
 saves info too txt
 
-mail:password:token
+token
 
 mail:password
 
