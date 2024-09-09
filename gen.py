@@ -52,7 +52,7 @@ def generate_account(thread_id):
     if response.status_code == 200:
         token = response.json().get('access_token', 'No token')
         with open("credentials_with_token.txt", "a") as file:
-            file.write(f"{data['email']}:{data['password']}:{token}\n")
+            file.write(f"{token}\n")
         with open("credentials.txt", "a") as file:
             file.write(f"{data['email']}:{data['password']}\n")
         
