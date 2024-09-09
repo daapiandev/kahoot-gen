@@ -8,7 +8,9 @@ teacher accs gens on a high thread around 100 accs a 3 seconds
 
 
 i do not take responsability of what u do with the accs/tool
+
 its NOT allowed too sell this free gen if someone does contact me
+
 have atleast 2 iq too install pip etc etc
 
 
