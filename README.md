@@ -5,7 +5,9 @@ sup sup made this in my free time enjoy it gens https://kahoot.com/
 teacher accs gens on a high thread around 100 accs a 3 seconds
 
 saves info too txt
+
 mail:password:token
+
 mail:password
 
 # disclaimer📕
