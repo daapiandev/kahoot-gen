@@ -44,7 +44,7 @@ def create_account(thread_id):
     response = requests.post(url, headers=headers, json=data)
     if response.status_code == 200:
         token = response.json().get('access_token', 'No token')
-        with open("credentials_with_token.txt", "a") as file:
+        with open("token.txt", "a") as file:
             file.write(f"{data['email']}:{data['password']}:{token}\n")
         with open("credentials.txt", "a") as file:
             file.write(f"{data['email']}:{data['password']}\n")
@@ -59,3 +59,4 @@ if __name__ == "__main__":
         futures = [executor.submit(create_account, i) for i in range(accounts)]
         for future in as_completed(futures):
             future.result()
+
