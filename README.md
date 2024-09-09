@@ -32,7 +32,7 @@ have atleast 2 iq too install pip etc etc
 
 
 # extra
-❌⭐5 stars= custom names/config file/proxies
+❌⭐5 stars= custom names/config file/proxies/pfp
 
 ❌⭐10 stars= fully recode and make faster
 
