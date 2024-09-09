@@ -45,7 +45,7 @@ def create_account(thread_id):
     if response.status_code == 200:
         token = response.json().get('access_token', 'No token')
         with open("token.txt", "a") as file:
-            file.write(f"{data['email']}:{data['password']}:{token}\n")
+            file.write(f"{token}\n")
         with open("credentials.txt", "a") as file:
             file.write(f"{data['email']}:{data['password']}\n")
         print(Fore.GREEN + f"[+] worker {thread_id} genned:" + Style.RESET_ALL + f" {data['email']}:{data['password']}")
